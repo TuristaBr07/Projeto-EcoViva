@@ -1,0 +1,140 @@
+/* Estilo Geral */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Cor de fundo clara */
+}
+
+/* Container Principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4CAF50;
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #3e8e41;
+    border-radius: 5px;
+}
+
+/* Seção Principal */
+main {
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 1000px;
+}
+
+/* Seção de Introdução */
+#intro h1 {
+    color: #4CAF50;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+#intro p {
+    margin: 10px 0;
+}
+
+#intro img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* Seção de Feedback */
+#feedback {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e8f5e9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px 0;
+    max-width: 500px;
+    text-align: left;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Botões */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
