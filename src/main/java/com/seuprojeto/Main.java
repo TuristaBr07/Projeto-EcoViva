@@ -20,8 +20,8 @@ public class Main {
         ProjetoDAO projetoDAO = new ProjetoDAO(); // Adicionando o controlador de projetos
 
         // Testando instâncias de Voluntário e ONG
-        Ong semearLuz = new Ong("Semear Luz", "97549554000184", "semearluz@gmail.com");
-        Voluntario voluntario1 = new Voluntario("João Silva", "12345678901", "joao@gmail.com");
+        Ong semearLuz = new Ong("Atados", "42579574000194", "atados@gmail.com");
+        Voluntario voluntario1 = new Voluntario("Gabriel Nunes", "12345678900", "gabrieln@gmail.com");
 
         // ADICIONANDO ONG
         try {
